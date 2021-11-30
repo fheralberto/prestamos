@@ -44,3 +44,9 @@ Conceptos básicos:
 
 fuente del spinner:
   https://tobiasahlin.com/spinkit/
+
+Para hacer deployment optimizar el proyecto:
+npm run build
+
+Documentación para hacer deployment:
+https://cra.link/deployment
