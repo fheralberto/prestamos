@@ -1,0 +1,2 @@
+cd desktop/proyectos/jsmodernoreact/prestamos
+npm run start

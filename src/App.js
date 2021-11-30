@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Formulario from "./componentes/Formulario";
+import Header from "./componentes/Header";
 
 function App() {
+  // Define el state
+  const [cantidad, guardarCantidad] = useState(0);
+  const [plazo, guardarPlazo] = useState("");
+
+  // Sólo se puede retornar un elemento
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="container">
+        <Header
+          titulo="Cotizador de Préstamos"
+        />
+        <Formulario
+          cantidad={cantidad}
+          guardarCantidad={guardarCantidad}
+          plazo={plazo}
+          guardarPlazo={guardarPlazo}
+        />
+      </div>
     </div>
   );
 }

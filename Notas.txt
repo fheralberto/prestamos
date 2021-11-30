@@ -1,0 +1,43 @@
+React
+Las instrucciones para iniciar un proyecto están en
+https://github.com/facebook/create-react-app
+
+En cmd posicionarse en la ubicación donde se creará el proyecto:
+cd desktop/proyectos/jsmodernoreact
+
+Creación de la nueva app, ejecutar:
+npx create-react-app prestamos
+
+Si no está instalado, se instalará create-react-app y
+procederá a crear las bases de la aplicación
+Una vez creado: 
+cd prestamos
+npm start
+
+Abrirá el navegador y mostrará un template de react como el proyecto
+http://localhost:3000/
+http://192.168.0.15:3000
+
+Agregar en el navegador la extensión React Developer Tools
+  Dará la herramienta de componentes en la consola
+Abrir el proyecto en Visual Studio Code
+Instalar extensiones pa:
+ES7 React/Redux/GraphQL/React-Native snippets
+Simple React Snippets
+
+En este proyecto se usará skeleton, buscarlo en 
+https://cdnjs.com/ 
+copiar el Link Tag y pegarlo en el index.html
+skeleton require normalize buscarlo en cdn también y
+pegarlo en el html antes de skeleton.
+
+Limpiando código y archivos que no se utilizarán en este proyecto:
+Limpiando: 
+  El header del app.js y el import app.css y de logo.svg 
+Eliminando archivos: 
+  App.css, logo.svg y App.test
+
+El index.html ya no se toca y se trabaja sobre app.js
+
+Conceptos básicos:
+  Componente, Estado, Hook, Helper
