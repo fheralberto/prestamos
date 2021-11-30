@@ -41,3 +41,6 @@ El index.html ya no se toca y se trabaja sobre app.js
 
 Conceptos básicos:
   Componente, Estado, Hook, Helper
+
+fuente del spinner:
+  https://tobiasahlin.com/spinkit/

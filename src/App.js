@@ -6,7 +6,8 @@ function App() {
   // Define el state
   const [cantidad, guardarCantidad] = useState(0);
   const [plazo, guardarPlazo] = useState("");
-
+  const [total, guardarTotal] = useState(0);
+  const [cargando, guardarCargando] = useState(false);
   // Sólo se puede retornar un elemento
   return (
     <div className="app">
@@ -19,6 +20,10 @@ function App() {
           guardarCantidad={guardarCantidad}
           plazo={plazo}
           guardarPlazo={guardarPlazo}
+          total={total}
+          guardarTotal={guardarTotal}
+          cargando={cargando}
+          guardarCargando={guardarCargando}
         />
       </div>
     </div>
